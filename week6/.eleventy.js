@@ -8,7 +8,8 @@ module.exports = {
     templateFormats: [
         "html",
         "md",
-        "css" // css is not yet a valid template extension
+        "css", // css is not yet a valid template extension
+        "ico"
     ],
-    passthroughFileCopy: true
+    passthroughFileCopy: true,
 };

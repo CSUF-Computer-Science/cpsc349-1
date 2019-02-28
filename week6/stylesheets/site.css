@@ -1,1 +1,31 @@
 /* Add site styles here */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Pacifico');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: lightsalmon;
+    margin: 1em;
+}
+
+a:hover {
+    color: #BF2424;
+    text-decoration: underline;
+}
+
+a {
+    background-color: transparent;
+    color: #D62828;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+h1 {
+    font-weight: 100;
+    font-family: 'Pacifico', cursive;
+    margin-top: 0;
+    border-bottom: 1px dotted black;
+}

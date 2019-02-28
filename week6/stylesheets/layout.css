@@ -1,12 +1,12 @@
-Add layout here */
+/* Add layout here */
 
 /* Layout 1 */
 
-/* 
 body {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 5em 3em 1fr 1fr;
+    grid-template-rows: 4em 4em 1fr 1fr;
+    grid-column-gap: 2em;
 }
 
 header {
@@ -43,14 +43,15 @@ footer {
     grid-column: 2 / 2;
     grid-row: 1 / span 4;
     order: 0;
-} */
+}
 
 /* Layout 2 */
-
+/* 
 body {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 5em 3em 1fr 1fr;
+    grid-template-rows: 4em 4em 1fr 1fr;
+    grid-column-gap: 2em;
 }
 
 header {
@@ -77,30 +78,36 @@ footer {
   grid-column: 2 / 2;
   grid-row: 3 / span 2;
   order: 1;
-}
+  margin-top: 1em;
+} */
 
 /* Layout 3 */
-
 
 /* body {
   display: grid;
   grid-template-areas: "header header header" "footer footer footer" "navigation main links";
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 2fr 1fr;
 }
 header {
   grid-area: header;
 }
 footer{
   grid-area: footer;
+  margin-bottom: 1em;
 }
 main {
   grid-area: main;
+  padding: 1em;
 }
 nav.navigatiion {
   grid-area: navigation; 
 }
 nav.links {
   grid-area: links;
+}
+ul {
+  padding: 20px;
+  margin: 0;
 } */
 /* End 3 */
 
@@ -108,7 +115,7 @@ nav.links {
 /* body {
   display: grid;
   grid-template-areas: "header header header"  "navigation main links" "footer footer footer";
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 2fr 1fr;
 }
 header {
   grid-area: header;
@@ -118,15 +125,22 @@ footer{
 }
 main {
   grid-area: main;
+  padding: 1em;
 }
 p:nth-of-type(2) {
     float: left;
     width: 12em;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.25em;
 }
 nav.navigatiion {
   grid-area: navigation; 
 }
 nav.links {
   grid-area: links;
+}
+ul {
+  padding: 20px;
+  margin: 0;
 } */
 /* end 4
