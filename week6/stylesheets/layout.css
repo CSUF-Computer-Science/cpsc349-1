@@ -45,3 +45,29 @@ footer {
 }
 
 /* Layout 2 */
+
+
+/* Layout 3 */
+
+
+/* body {
+  display: grid;
+  grid-template-areas: "header header header" "footer footer footer" "navigation main links";
+  grid-template-columns: repeat(3, 1fr);
+}
+header {
+  grid-area: header;
+}
+footer{
+  grid-area: footer;
+}
+main {
+  grid-area: main;
+}
+nav.navigatiion {
+  grid-area: navigation; 
+}
+nav.links {
+  grid-area: links;
+} */
+/* End 3 */
