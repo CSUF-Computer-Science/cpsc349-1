@@ -2,6 +2,7 @@
 
 /* Layout 1 */
 
+/* 
 body {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -42,10 +43,41 @@ footer {
     grid-column: 2 / 2;
     grid-row: 1 / span 4;
     order: 0;
-}
+} */
 
 /* Layout 2 */
 
+body {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 5em 3em 1fr 1fr;
+}
+
+header {
+    grid-column: 1;
+    order: 0;
+}
+
+main {
+    grid-column: 1;
+    order: 2;
+}
+
+footer {
+    order: 3;
+    grid-column: 1 / span 2;
+}
+
+.links {
+  order: 0;
+  grid-column: 2 / span 1;
+}
+
+.navigation {
+  grid-column: 2 / 2;
+  grid-row: 3 / span 2;
+  order: 1;
+}
 
 /* Layout 3 */
 
