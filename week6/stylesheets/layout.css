@@ -1,4 +1,4 @@
-/* Add layout here */
+Add layout here */
 
 /* Layout 1 */
 
@@ -103,3 +103,30 @@ nav.links {
   grid-area: links;
 } */
 /* End 3 */
+
+/* Layout 4 */
+/* body {
+  display: grid;
+  grid-template-areas: "header header header"  "navigation main links" "footer footer footer";
+  grid-template-columns: repeat(3, 1fr);
+}
+header {
+  grid-area: header;
+}
+footer{
+  grid-area: footer;
+}
+main {
+  grid-area: main;
+}
+p:nth-of-type(2) {
+    float: left;
+    width: 12em;
+}
+nav.navigatiion {
+  grid-area: navigation; 
+}
+nav.links {
+  grid-area: links;
+} */
+/* end 4
