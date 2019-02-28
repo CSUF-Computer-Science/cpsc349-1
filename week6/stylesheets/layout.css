@@ -1,1 +1,47 @@
 /* Add layout here */
+
+/* Layout 1 */
+
+body {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 5em 3em 1fr 1fr;
+}
+
+header {
+    grid-column: 1;
+    order: 0;
+}
+
+.links {
+    order: 1;
+}
+
+.links ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
+}
+
+.links ul li {
+    list-style-type: none;
+}
+
+main {
+    grid-column: 1;
+    order: 2;
+}
+
+footer {
+    order: 3;
+    grid-column: 1 / span 2;
+}
+
+.navigation {
+    grid-column: 2 / 2;
+    grid-row: 1 / span 4;
+    order: 0;
+}
+
+/* Layout 2 */
